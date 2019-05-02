@@ -1,0 +1,87 @@
+form {
+	margin-bottom: 20px;
+}
+label {
+	font-size: 0.85em;
+	float: left;	/*** Très important, ne pas suprimer ! ***/
+	width: 26%;
+	color: #666;
+	font-weight: bold;
+	text-align: right;	/*** ... et ils sont alignés à droite... ***/
+	padding: 0 .5em 0 0;
+	line-height: 18px;	/*** ... et centrés verticalement. ***/
+	font-family: verdana, arial, sans-serif;
+}
+fieldset {
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-bottom: 10px;
+	font-style: normal;
+	padding: 0 5px 10px 5px;
+	border: solid 1px #D5E8F4;
+	border-color: #D5E8F4 #d3d3d3 #d3d3d3 #D5E8F4;
+	background: #fbfbfb;
+}
+legend {
+	font-size: 1em;
+	color: #f60;
+	vertical-align: middle;
+	font-weight: bold;
+	padding-left: 2px;
+	padding-right: 2px;
+}
+label:hover, #valid input {
+	cursor: pointer;	
+}
+#infos {
+	font-size: 0.8em;
+	font-weight: normal;
+	color: #CD0D1E;
+	margin-bottom: 5px;
+	font-family: verdana, arial, sans-serif;
+}
+p.text_center input {
+	border: 0;
+	background: none;
+}
+#champs {
+	text-align: right;
+	color: #CD0D1E;
+	font-weight: bold;
+	font-size: 0.9em;
+}
+.focus { 
+	background: #fff;
+	border: 1px solid #fc3;
+}  
+input.normal, input, textarea, select {
+	background: #FFF;
+	border: 1px solid #CFCFCF;
+	color: #039;
+}
+span.top {
+	color: #CD0D1E;
+	vertical-align: top;
+	margin: 0;
+	display: inline;
+	font-size: 1.5em;
+	font-weight: bold;
+}
+#bouton_valid {
+	margin: 10px 0 20px 0;
+	text-align: center;
+	background: #039;
+	cursor: pointer;
+	color: #fff;
+	font-weight: bold;
+	border: solid 2px #D5E8F4;
+	border-color:  #B9D9EC #D5E8F4 #D5E8F4 #B9D9EC;
+}
+#bouton_valid:hover {
+	background: #B9D9EC;
+	cursor: pointer;
+	color: #f60;
+	font-weight: bold;
+	border: solid 2px #ccc;
+	border-color:#039;
+}

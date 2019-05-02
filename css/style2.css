@@ -1,0 +1,106 @@
+nav{
+    padding-top: 7px;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+nav > ul::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+nav li:hover .sub-menu{
+    display: inline-block;
+    position: absolute;
+    top: 100%;
+    left: 0px;
+    padding: 0px;
+    z-index: 10000;
+}
+.nav > li:hover > a{
+    padding-top: 10px;
+}
+
+.navbar{
+    min-height: 68px;
+}
+
+li > .sub-menu > li{
+    list-style-type: none;
+    margin: 0px;
+    padding: 5px 0 0 0;
+}
+
+li > .sub-menu{
+    float: left;
+    position: relative;
+    background-color: #f8f8f8;
+}
+
+.sub-menu{
+    display: none;
+}
+
+.sub-menu li{
+    border-bottom: 1px solid #CCC;
+    padding-left: 15px;
+    padding-top: 15px;
+    margin-left: 10px;
+    width: 130px;
+    height: 35px;
+    background-color: #f8f8f8;
+}
+.sub-menu li:hover{
+    background-color: rgba(255, 20, 147, 0.15);
+}
+.sub-menu li a{
+    padding: 15px 15px;
+
+    width: 500px;
+    text-decoration: none;
+}
+
+.menu:hover{
+    border-top: 5px solid #FF1493;
+    background-color: rgba(255, 20, 147, 0.15);
+}
+.menu > li:hover a{
+    padding-top: 0px;
+}
+
+body{
+	background-image: url("/lisabeaute/media/img/bg/bg.png");
+}
+
+#body-content{
+    background-image: url("media/img/bg/bg2.png");
+
+}
+
+.img-limit{
+    max-width: 296px;
+    max-height: 188px;
+}
+
+.parsley-errors-list li.parsley-required {
+    margin-left: 1px;
+    padding: 1px;
+    color: red;
+    width: 70%;
+}
+.parsley-errors-list li{
+    list-style-type: none;
+}
+.parsley-errors-list{
+    padding-left: 2px;
+}
+
+.menu-fixe-cat{
+    padding-left: 5px;
+    padding-top: 0px;
+    background-color: #f8f8f8;
+    width: 200px;
+}
+
+

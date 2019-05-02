@@ -1,0 +1,42 @@
+.text_center {
+	text-align: center;
+}
+.error {
+	font-weight: bold;
+	color: #CD0D1E;
+}
+.img_right {
+	float: right;
+	margin: 0 10px;
+}
+.clear_left {
+	clear: left;
+}
+p.img_border img, p.img_border2 img {
+	margin-top: 30px;
+	border: solid 1px #e95818;
+}
+p.img_border2 img {
+	margin-top: 0px;
+}
+p.animation {
+	width: 755px;
+	margin-top: 20px;
+	text-align: center;
+}
+p.animation2 {
+	width: 300px;
+	float: left;
+	margin-top: 20px;
+	text-align: center;
+}
+.top {
+	text-align: right;
+	border-style: none none solid none;
+	border-width: 0 0 1px 0;
+	border-color: #ccc;
+	line-height: 30px;
+}
+p.top a, p.top a:visited {
+	color: #f60;
+}

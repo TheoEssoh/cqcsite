@@ -1,0 +1,83 @@
+.navigation {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  background: #000;
+  color: #fff;
+  width: 200px;
+  font: 1.2em "Trebuchet MS", sans-serif;
+}
+.navigation a, .navigation span {
+  display: block;
+  padding: 4px 10px;
+  color: #fff;
+  text-decoration: none;
+  background: #000 url(menu-item.png) left bottom no-repeat;
+}
+.navigation .toggleSubMenu a, .navigation .toggleSubMenu span {
+  background-image: url(menu-item-deroule.png);
+}
+.navigation .open a, .navigation .open span {
+  background-image: url(menu-item-enroule.png);
+}
+.navigation a:hover, .navigation a:focus, .navigation a:active {
+  text-decoration: underline;
+}
+.navigation .subMenu {
+  font-size: .8em;
+  background: #ccc url(subMenu.png) 0 0 repeat-x;
+  font-size: .9em;
+  margin: 0;
+  padding: 0;
+  border-bottom: 1px solid #666;
+}
+.navigation ul.subMenu a {
+  background: none;
+  padding: 3px 20px;
+}
+
+img{
+   float:left;
+   width: 220px;
+  height: 220px;
+
+}
+
+
+
+
+<!--Ceci est mon haut de page -->
+#conteneur {width:760px; margin:0 auto;}
+<!--Ceci est ma colonne latérale -->
+#wrap {overflow:hidden;}
+ <!--Ceci est ma colonne latérale -->
+#sidebar {float:left; width:170px;}
+<!--Ceci est mon contenu principal -->
+#contenu {
+  margin-left:170px;
+  text-align: right;
+
+}
+
+
+#wrap{
+text-align: left;
+}
+nav
+{
+    float: left;
+    width: 150px;
+    border: 1px solid black;
+}
+
+section
+{
+    margin-left: 170px;
+    border: 1px solid blue;
+}
+
+div#prototype img{
+  width: 10px;
+  height: 50px;
+
+}
